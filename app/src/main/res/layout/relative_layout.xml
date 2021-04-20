@@ -13,12 +13,27 @@
         android:src="#D81B60" />
 
     <ImageView
-        android:layout_toRightOf="@id/imgImagem1"
+        android:id="@+id/imgImagem5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@+id/imgImagem2"
+        android:src="#039BE5" />
+
+    <ImageView
         android:id="@+id/imgImagem2"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_below="@id/imgImagem1"
+        android:layout_toRightOf="@id/imgImagem1"
         android:src="#FFB300" />
+
+    <ImageView
+        android:layout_below="@id/imgImagem2"
+        android:layout_toRightOf="@id/imgImagem2"
+        android:id="@+id/imgImagem6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="#D81B60" />
 
     <ImageView
         android:id="@+id/imgImagem3"
